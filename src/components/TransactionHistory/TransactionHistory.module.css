@@ -1,0 +1,25 @@
+.table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+th{
+    color:white;
+    background-color: rgb(33, 33, 33);
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}

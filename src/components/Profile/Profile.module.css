@@ -1,0 +1,43 @@
+.profileBox {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.imageBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.image{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color:gray;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.lightgrey{
+    color:rgba(105, 105, 105, 0.825);
+}
+
+.list{
+    display: flex;
+}
+
+.listItem{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    background-color: darkgray;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
