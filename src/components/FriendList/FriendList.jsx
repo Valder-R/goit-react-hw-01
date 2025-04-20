@@ -1,14 +1,6 @@
 import css from "./FriendList.module.css"
+import FriendListItem from "../FriendListItem/FriendListItem"
 
-function FriendListItem({ avatar, name, isOnline }) {
-    return (
-        <div className={css.friendContainer}>
-            <img src={avatar} alt="Avatar" width="48" />
-            <p>{ name }</p>
-            <p className={isOnline ? css.online : css.offline}>{ isOnline ? "Online" : "Offline" }</p>
-        </div>
-    )
-}
 
 export default function FriendList({friends}) {
     return (
